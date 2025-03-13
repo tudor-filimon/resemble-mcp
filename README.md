@@ -1,7 +1,7 @@
 # HI! This is an MCP server for Resemble AI's services. 
 
 ## See the following videos of its uses:
-## This server was implemented using the Python SDK.
+This server was implemented using the Python SDK.
 
 ### **list_voices tool:**
 https://github.com/user-attachments/assets/f40169df-4cc4-4592-8f69-f1a652a88025
