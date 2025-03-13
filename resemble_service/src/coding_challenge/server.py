@@ -6,9 +6,6 @@ from resemble import Resemble
 import httpx
 
 # Create an MCP server
-# project id 49a55388
-# voice id 55592656
-
 mcp = FastMCP("Demo")
 
 load_dotenv()
