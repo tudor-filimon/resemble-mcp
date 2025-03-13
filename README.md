@@ -20,5 +20,5 @@ Step 4: Configure your **claude_desktop_config.app** file by visiting Claude Des
 
 Step 5: Quit Claude, and reopen the app. It should now be good to go if the hammer icon is visible <img width="42" alt="image" src="https://github.com/user-attachments/assets/4d305469-3fb0-4970-8965-79d852192c46" />
 
-Step 6: If the hammer icon isn't showing up, check the server logs, ensure your server (virtual environment, interpreter, .env, general code, etc) is configured properly, or https://modelcontextprotocol.io/docs/tools/debugging.
+Step 6: If the hammer icon isn't showing up, check your config file, the server logs for debugging, ensure your server (virtual environment, interpreter, .env, general code, etc) is configured properly, or visit **https://modelcontextprotocol.io/docs/tools/debugging**.
 
