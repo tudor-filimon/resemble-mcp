@@ -18,4 +18,5 @@ Step 3: Create a .env file and gather your Resemble API key from **https://app.r
 
 Step 4: Configure your **claude_desktop_config.app** file by visiting Claude Desktop Settings.
 
-Step 5: Quit Claude, and reopen the app. It should now be good to go!
+Step 5: Quit Claude, and reopen the app. It should now be good to go and the hammer icon should be visible <img width="20" alt="image" src="https://github.com/user-attachments/assets/4d305469-3fb0-4970-8965-79d852192c46" />
+
