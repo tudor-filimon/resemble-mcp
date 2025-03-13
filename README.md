@@ -11,7 +11,11 @@ https://github.com/user-attachments/assets/efa5a206-2463-46d3-8707-ccd7df71616d
 
 ## Usage and Installation:
 Step 1: Clone the repository
+
 Step 2: Create a virtual environment and install dependencies
+
 Step 3: Create a .env file and gather your Resemble API key from **https://app.resemble.ai/account/api**
+
 Step 4: Configure your **claude_desktop_config.app** file by visiting Claude Desktop Settings.
+
 Step 5: Quit Claude, and reopen the app. It should now be good to go!
