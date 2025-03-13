@@ -35,20 +35,22 @@ def list_voices(page: int, page_size: int) -> str:
             raise Exception("Page number must be at least")
 
 
-        # Make sure page_size is reasonable
+        # Make sure page_size is between 10 and 1000
         if page_size < 10 or page_size > 1000:
             raise Exception("Page size must be between 10 and 1000 (inclusive).")
 
 
-        # Initialize Resemble client
+        # Ensure API key is loaded properly
         if not RESEMBLE_KEY:
             raise Exception("No Resemble API Key provided!")
 
-
+        # Initialize Resemble client
         Resemble.api_key(RESEMBLE_KEY)
+        
         # Get voices
         response = Resemble.v2.voices.all(page, page_size)
 
+        # Ensure a response returns before proceeding
         if not response:
             raise Exception("Failed to retrieve voices or no voices found from Resemble models.")
 
@@ -87,7 +89,7 @@ def list_voices(page: int, page_size: int) -> str:
 @mcp.tool()
 def text_to_speech(voice_uuid: int, data: str, sample_rate: int, accept_encoding: str) -> str:
     """
-    Purpose: Given an input text, this will return a wav base64 encoding with a text-to-speech response with a specified voice uuid.
+    Purpose: Given an input text, this will insert the tts audio clip into the user's project, and inform the user to check their project.
 
     Args:
         voice_uuid: id of the voice agent to use
