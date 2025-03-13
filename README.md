@@ -1,6 +1,6 @@
-# HI! This is an MCP server for Resemble AI's services. 
+# Resemble AI MCP Server 
 
-## See the following videos of its uses:
+## Hi! The following is an implementation of an MCP server to access Resemble AI's resources. See the following videos of its uses:
 This server was implemented using the Python SDK.
 
 ### **list_voices tool:**
